@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D141CB11E5E0CB200090552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D141CB01E5E0CB200090552 /* AppDelegate.swift */; };
+		7D141CB31E5E0CB200090552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D141CB21E5E0CB200090552 /* ViewController.swift */; };
+		7D141CB61E5E0CB300090552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D141CB41E5E0CB300090552 /* Main.storyboard */; };
+		7D141CB91E5E0CB300090552 /* MapViewTTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D141CB71E5E0CB300090552 /* MapViewTTT.xcdatamodeld */; };
+		7D141CBB1E5E0CB300090552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D141CBA1E5E0CB300090552 /* Assets.xcassets */; };
+		7D141CBE1E5E0CB300090552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D141CBC1E5E0CB300090552 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D141CAD1E5E0CB200090552 /* MapViewTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D141CB01E5E0CB200090552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D141CB21E5E0CB200090552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D141CB51E5E0CB300090552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D141CB81E5E0CB300090552 /* MapViewTTT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapViewTTT.xcdatamodel; sourceTree = "<group>"; };
+		7D141CBA1E5E0CB300090552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D141CBD1E5E0CB300090552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D141CBF1E5E0CB300090552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D141CAA1E5E0CB200090552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D141CA41E5E0CB200090552 = {
+			isa = PBXGroup;
+			children = (
+				7D141CAF1E5E0CB200090552 /* MapViewTTT */,
+				7D141CAE1E5E0CB200090552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D141CAE1E5E0CB200090552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D141CAD1E5E0CB200090552 /* MapViewTTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D141CAF1E5E0CB200090552 /* MapViewTTT */ = {
+			isa = PBXGroup;
+			children = (
+				7D141CB01E5E0CB200090552 /* AppDelegate.swift */,
+				7D141CB21E5E0CB200090552 /* ViewController.swift */,
+				7D141CB41E5E0CB300090552 /* Main.storyboard */,
+				7D141CBA1E5E0CB300090552 /* Assets.xcassets */,
+				7D141CBC1E5E0CB300090552 /* LaunchScreen.storyboard */,
+				7D141CBF1E5E0CB300090552 /* Info.plist */,
+				7D141CB71E5E0CB300090552 /* MapViewTTT.xcdatamodeld */,
+			);
+			path = MapViewTTT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D141CAC1E5E0CB200090552 /* MapViewTTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D141CC21E5E0CB300090552 /* Build configuration list for PBXNativeTarget "MapViewTTT" */;
+			buildPhases = (
+				7D141CA91E5E0CB200090552 /* Sources */,
+				7D141CAA1E5E0CB200090552 /* Frameworks */,
+				7D141CAB1E5E0CB200090552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewTTT;
+			productName = MapViewTTT;
+			productReference = 7D141CAD1E5E0CB200090552 /* MapViewTTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D141CA51E5E0CB200090552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Sponti;
+				TargetAttributes = {
+					7D141CAC1E5E0CB200090552 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4HKPZS96DV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D141CA81E5E0CB200090552 /* Build configuration list for PBXProject "MapViewTTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D141CA41E5E0CB200090552;
+			productRefGroup = 7D141CAE1E5E0CB200090552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D141CAC1E5E0CB200090552 /* MapViewTTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D141CAB1E5E0CB200090552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D141CBE1E5E0CB300090552 /* LaunchScreen.storyboard in Resources */,
+				7D141CBB1E5E0CB300090552 /* Assets.xcassets in Resources */,
+				7D141CB61E5E0CB300090552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D141CA91E5E0CB200090552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D141CB31E5E0CB200090552 /* ViewController.swift in Sources */,
+				7D141CB11E5E0CB200090552 /* AppDelegate.swift in Sources */,
+				7D141CB91E5E0CB300090552 /* MapViewTTT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D141CB41E5E0CB300090552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D141CB51E5E0CB300090552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D141CBC1E5E0CB300090552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D141CBD1E5E0CB300090552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D141CC01E5E0CB300090552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D141CC11E5E0CB300090552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D141CC31E5E0CB300090552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HKPZS96DV;
+				INFOPLIST_FILE = MapViewTTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sponti.MapViewTTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D141CC41E5E0CB300090552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HKPZS96DV;
+				INFOPLIST_FILE = MapViewTTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sponti.MapViewTTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D141CA81E5E0CB200090552 /* Build configuration list for PBXProject "MapViewTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D141CC01E5E0CB300090552 /* Debug */,
+				7D141CC11E5E0CB300090552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D141CC21E5E0CB300090552 /* Build configuration list for PBXNativeTarget "MapViewTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D141CC31E5E0CB300090552 /* Debug */,
+				7D141CC41E5E0CB300090552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D141CB71E5E0CB300090552 /* MapViewTTT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D141CB81E5E0CB300090552 /* MapViewTTT.xcdatamodel */,
+			);
+			currentVersion = 7D141CB81E5E0CB300090552 /* MapViewTTT.xcdatamodel */;
+			path = MapViewTTT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D141CA51E5E0CB200090552 /* Project object */;
+}
